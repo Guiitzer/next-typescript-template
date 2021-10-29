@@ -4,18 +4,15 @@ import { Button } from "@components";
 
 export const Main: React.FC = () => {
     return (
-        <div className="text-center font-light py-5 bg-gray-700">
+        <div className="text-center font-light py-10 bg-gray-700">
             <div className="container mx-auto">
-                <h1 className="text-white text-8xl mb-2">superplate</h1>
+                <h1 className="text-white text-6xl mb-10">Market Place</h1>
                 <p className="text-lg text-white mb-3">
-                    The frontend boilerplate with superpowers!
+                    Conheça nossos produtos!
                 </p>
                 <Button type="button">
-                    <a
-                        href="https://pankod.github.io/superplate/"
-                        target="_blank"
-                    >
-                        Docs
+                    <a href="https://fiduciascm.com.br/" target="_blank">
+                        Contate-nos
                     </a>
                 </Button>
             </div>

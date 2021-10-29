@@ -4,10 +4,10 @@ import Image from "next/image";
 export const Logo: React.FC = () => {
     return (
         <Image
-            src="/icons/nextjs-icon.svg"
-            alt="nextjs"
-            width="96"
-            height="58"
+            src="https://www.fiduciascm.com.br/wp-content/uploads/2020/09/fiducia-logo-branco.svg"
+            alt="Logo da empresa Fiducia"
+            width="195"
+            height="52"
         />
     );
 };
